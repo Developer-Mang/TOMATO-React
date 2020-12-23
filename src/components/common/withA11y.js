@@ -10,6 +10,6 @@ styled.A11y`
   overflow: hidden;
 `;
 
-export default withA11y = (children) => () => {
+export default withA11y = ({ children }) => () => {
   return <A11y>{children}</A11y>;
 };
