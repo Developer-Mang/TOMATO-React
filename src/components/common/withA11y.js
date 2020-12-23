@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-styled.A11y`
+const A11y = styled.div`
   position: absolute;
   width: 1px;
   height: 1px;
