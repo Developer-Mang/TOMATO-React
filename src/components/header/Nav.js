@@ -2,7 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-const NavList = styled.ul``;
+const NavList = styled.ul`
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0 16px;
+`;
 
 export default Nav = () => {
   return (
