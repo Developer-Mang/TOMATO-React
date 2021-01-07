@@ -33,6 +33,26 @@ const NavList = styled.ul`
   display: flex;
   justify-content: space-around;
   padding: 12px 0 16px;
+
+  li:nth-child(2) {
+    margin-right: 36px;
+  }
+  li:nth-child(3) {
+    margin-left: 36px;
+  }
+
+  a {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    padding: 8px 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #202020;
+    text-align: center;
+    cursor: pointer;
+  }
 `;
 
 const Nav = () => {
