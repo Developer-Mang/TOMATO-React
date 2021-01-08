@@ -22,7 +22,7 @@ const AddTodo = styled.button`
   padding-top: 40px;
   margin: auto;
   border-radius: 20px;
-  /* background: url("../img/ico_plus_white.png") no-repeat center; */
+  background: url("img/ico_plus_white.png") no-repeat center;
   background-size: 24px 24px;
   background-color: #ff551f;
   box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.2);
@@ -61,16 +61,16 @@ const Nav = () => {
       <AddTodo>할일 추가하기</AddTodo>
       <NavList>
         <li>
-          <a to="./">할일</a>
+          <a href="./">할일</a>
         </li>
         <li>
-          <a to="./">목표</a>
+          <a href="./">목표</a>
         </li>
         <li>
-          <a to="./">통계</a>
+          <a href="./">통계</a>
         </li>
         <li>
-          <a to="./">스케줄</a>
+          <a href="./">스케줄</a>
         </li>
       </NavList>
     </NavMain>
